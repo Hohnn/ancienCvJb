@@ -1,0 +1,132 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+main .top {
+    display: flex;
+}
+main .exp h2 {
+     text-align: center;
+     font-size: 3rem;
+     padding: 65px 0 65px 0;
+     margin: 0;
+     color: white;
+ }
+
+ .top div {
+     width: 35%;
+     margin: 0 40px 0 40px;
+ }
+ h3 {
+     font-size: 2rem;
+     border-bottom: slateblue solid 2px;
+     color: hsl(240, 55%, 47%);
+ }
+
+ section {
+     display: flex;
+ }
+
+ .exp {
+     width: 650px;
+ }
+
+ aside {
+     width: 350px;
+     
+ }
+
+ aside div {
+     padding: 1px 40px 10px 40px;
+ }
+
+.backBleu {
+    background-color: hsl(240, 55%, 47%);
+    color: white;
+} 
+
+.backBleu h3 {
+    color: white;
+    border-color: white;
+}
+
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.flex {
+    display: flex;
+}
+ 
+.flex p {
+    margin-top: 0;
+}
+
+.bac {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.flex span {
+    text-align: center;
+    padding: 10px;
+    line-height: 0.7rem;
+    position: relative;
+    color: white;
+    width: 32px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.flex span::before {
+    content: '';
+    position: absolute;
+    background-color: hsl(240, 55%, 47%);
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.relou::before {
+    top: 50% !important;
+}
+
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.hobbies li {
+    padding-right: 21px;
+}
+
+.comp ul {
+    padding-left: 0;
+}
+
+.comp li {
+    list-style: none;
+    line-height: 2.2rem;
+}
+
+.marg {
+    margin-bottom: 0;
+}
+
+.mid {
+    padding-top: 28px !important;
+}
